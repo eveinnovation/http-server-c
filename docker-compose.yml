@@ -1,0 +1,13 @@
+
+version: "3.9"
+services:
+  ffmpeg-build-ubuntu-20.04:
+    container_name: ffmpeg-build-ubuntu-20.04
+    command: "sh /data/init.sh"
+    build:
+      context: .
+    image: ffmpeg-build-ubuntu-20.04
+    volumes:
+      - .:/data
+    environment:
+      - MY_ENV_VAR="testing"
