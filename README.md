@@ -94,3 +94,7 @@ gcc -I/home/ovidiu/c++/ffmpeg/include/ -L/home/ovidiu/c++/ffmpeg/lib/ main.c \
 
 #docker:
 docker-compose build --no-cache
+
+https://medium.com/from-the-scratch/http-server-what-do-you-need-to-know-to-build-a-simple-http-server-from-scratch-d1ef8945e4fa
+https://idiotdeveloper.com/file-transfer-using-tcp-socket-in-c/
+https://www.geeksforgeeks.org/socket-programming-cc/
